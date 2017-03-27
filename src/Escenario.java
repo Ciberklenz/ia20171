@@ -30,9 +30,9 @@ public class Escenario {
             System.out.println("\n");
         }
     }
-static int numeroAleatorio(int minimo, int maximo) {
-Random random = new Random();
-int numero_aleatorio = random.nextInt((maximo - minimo) + 1) + minimo;
-return numero_aleatorio;  
-}
+    static int numeroAleatorio(int minimo, int maximo) {
+    Random random = new Random();
+    int numero_aleatorio = random.nextInt((maximo - minimo) + 1) + minimo;
+    return numero_aleatorio;  
+    }
 }
