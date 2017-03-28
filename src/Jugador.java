@@ -52,7 +52,7 @@ public class Jugador extends Celda{
         if(esc.matriz[x][y+1].tipocelda.equals("[#]")){
             System.out.println("Posicion ocupada Mueva en otra direccion");
         }else{
-            if(vacio=esc.matriz[x][y].tipocelda)
+            if(esc.matriz[x][y].tipocelda.equals("[ ]"))
             {
             esc.matriz[x][y].tipocelda= "[ ]";
             esc.matriz[x][y+1].tipocelda= "[J]";
